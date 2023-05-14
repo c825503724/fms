@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T11:43:22.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vVeq6TUXGIye-kbmyZZM" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T11:45:17.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NSjsqo9f4IZOd7zcIuZU" version="21.3.0" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1562" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -114,6 +114,12 @@
               <mxPoint x="220" y="410" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-54" value="TOS 任务&lt;br&gt;任务执行情况&lt;br&gt;BSM" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-55" value="港机数据" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="460" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
