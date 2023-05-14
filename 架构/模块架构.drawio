@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T12:48:32.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-TuSK54vz-8oCylFLswB" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T12:55:26.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="E53nrhUfKQdZxE6VTlZO" version="21.3.0" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1562" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -74,7 +74,7 @@
           <mxGeometry x="20" y="37.5" width="60" height="25" as="geometry" />
         </mxCell>
         <mxCell id="tz9ENl9yOeId7DFRfG0S-52" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="290" y="130" width="640" height="369.995" as="geometry" />
+          <mxGeometry x="290" y="130" width="640" height="390" as="geometry" />
         </mxCell>
         <mxCell id="tz9ENl9yOeId7DFRfG0S-50" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-52">
           <mxGeometry width="640" height="350" as="geometry" />
@@ -183,6 +183,21 @@
         </mxCell>
         <mxCell id="tz9ENl9yOeId7DFRfG0S-87" value="调度器" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-88">
           <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-90" value="TP 处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-88">
+          <mxGeometry x="20" y="37.5" width="95" height="47.04" as="geometry" />
+        </mxCell>
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-91" value="DO 处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-88">
+          <mxGeometry x="20" y="92.46000000000004" width="95" height="47.04" as="geometry" />
+        </mxCell>
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-92" value="RT 处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-88">
+          <mxGeometry x="20" y="145.46000000000004" width="95" height="47.04" as="geometry" />
+        </mxCell>
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-93" value="充电处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-88">
+          <mxGeometry x="140" y="37.5" width="95" height="47.04" as="geometry" />
+        </mxCell>
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-94" value="停车场处理器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-88">
+          <mxGeometry x="140" y="92.46000000000004" width="95" height="47.04" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
