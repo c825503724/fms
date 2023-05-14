@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T12:26:35.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="x9FtJ0iIR-eq3TgNK9oT" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T12:31:58.879Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="54r0d2_jnXXwEv_Gbqpo" version="21.3.0" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1562" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -82,11 +82,11 @@
         <mxCell id="tz9ENl9yOeId7DFRfG0S-51" value="核心模块" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-52">
           <mxGeometry x="13.333333333333334" y="12.962962962962962" width="80" height="38.888888888888886" as="geometry" />
         </mxCell>
-        <mxCell id="tz9ENl9yOeId7DFRfG0S-57" value="comAdapter" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-52">
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-57" value="comAdapter" style="rounded=1;whiteSpace=wrap;html=1;direction=south;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-52">
           <mxGeometry x="109.995" y="339.995" width="78.15" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tz9ENl9yOeId7DFRfG0S-70" value="" style="group" vertex="1" connectable="0" parent="tz9ENl9yOeId7DFRfG0S-52">
-          <mxGeometry x="89.07" y="240" width="120" height="55" as="geometry" />
+          <mxGeometry x="89.07" y="250" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="tz9ENl9yOeId7DFRfG0S-74" value="" style="group" vertex="1" connectable="0" parent="tz9ENl9yOeId7DFRfG0S-70">
           <mxGeometry width="120" height="55" as="geometry" />
