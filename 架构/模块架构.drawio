@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T14:31:43.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Jz8QC5-bXQf0Fil-N0Ra" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T14:39:10.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Z4WOo0sgdWEB1YO2x-nt" version="21.3.0" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1562" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -106,10 +106,10 @@
         <mxCell id="tz9ENl9yOeId7DFRfG0S-72" value="地图及路径规划" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-73">
           <mxGeometry width="110" height="38.89" as="geometry" />
         </mxCell>
-        <mxCell id="tz9ENl9yOeId7DFRfG0S-77" value="map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-73">
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-77" value="map" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-73">
           <mxGeometry x="37.5" y="47.04" width="95" height="47.04" as="geometry" />
         </mxCell>
-        <mxCell id="tz9ENl9yOeId7DFRfG0S-79" value="router" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-73">
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-79" value="router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="tz9ENl9yOeId7DFRfG0S-73">
           <mxGeometry x="37.5" y="117.03999999999999" width="95" height="47.04" as="geometry" />
         </mxCell>
         <mxCell id="tz9ENl9yOeId7DFRfG0S-75" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tz9ENl9yOeId7DFRfG0S-52" source="tz9ENl9yOeId7DFRfG0S-69" target="tz9ENl9yOeId7DFRfG0S-57">
