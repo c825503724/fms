@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T02:54:28.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Jh2N3mNL-h-Me3wqrxKo" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T03:23:08.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="PO0fxgIDRvH-MNGtd7cp" version="21.3.0" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
         <mxCell id="tz9ENl9yOeId7DFRfG0S-67" value="" style="shape=doubleArrow;direction=west;whiteSpace=wrap;html=1;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="1000" y="326" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tz9ENl9yOeId7DFRfG0S-76" value="comAdapter 维护精停差异？&lt;br&gt;界面操作编辑电子围栏、可能冲突区域等" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="tz9ENl9yOeId7DFRfG0S-76" value="comAdapter 维护精停差异？&lt;br&gt;任务编排&lt;br&gt;界面操作编辑电子围栏、可能冲突区域等" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="540" y="670" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tz9ENl9yOeId7DFRfG0S-81" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="tz9ENl9yOeId7DFRfG0S-77" edge="1">
