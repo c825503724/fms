@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T04:58:28.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="fUQYo7duNoQ_uWp9bOAW" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T05:00:52.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jytsdxBrA1CgAjkjr5ZL" version="21.3.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -107,11 +107,14 @@
         <mxCell id="77e6c97f196da883-7" value="VehilcleController" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1120" y="20" width="290" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="lvhuI_1f0St6snO5H-O9-26" value="撤销TransportOrder" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="77e6c97f196da883-7">
-          <mxGeometry x="50" y="160" width="10" height="80" as="geometry" />
+        <mxCell id="lvhuI_1f0St6snO5H-O9-47" value="维护 TO&lt;br&gt;DO 生命周期" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="90" y="60" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="lvhuI_1f0St6snO5H-O9-35" value="发布TO 到车控制器" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="77e6c97f196da883-7">
-          <mxGeometry x="50" y="297" width="10" height="80" as="geometry" />
+        <mxCell id="lvhuI_1f0St6snO5H-O9-26" value="撤销TransportOrder" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="lvhuI_1f0St6snO5H-O9-47">
+          <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lvhuI_1f0St6snO5H-O9-35" value="发布TO 到车控制器" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="lvhuI_1f0St6snO5H-O9-47">
+          <mxGeometry x="45" y="230" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lvhuI_1f0St6snO5H-O9-27" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" target="lvhuI_1f0St6snO5H-O9-26" parent="77e6c97f196da883-1" source="lvhuI_1f0St6snO5H-O9-22">
           <mxGeometry x="0.0014" relative="1" as="geometry">
