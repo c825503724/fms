@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T16:14:50.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="h29UZ42oFwO0eSekBoQr" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T16:19:17.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vXVnq25foR6mmvMf6Opo" version="21.3.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2083" dy="1159" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -11,16 +11,19 @@
           <mxGeometry y="20" width="360" height="1410" as="geometry" />
         </mxCell>
         <mxCell id="TZnVQ1YvP92Jc1uxTdFt-39" value="task-action 调度" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="100" y="65" width="229" height="1005" as="geometry" />
+          <mxGeometry x="100" y="65" width="229" height="1235" as="geometry" />
         </mxCell>
         <mxCell id="TZnVQ1YvP92Jc1uxTdFt-40" value="task 分配" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TZnVQ1YvP92Jc1uxTdFt-39">
           <mxGeometry x="110" y="75" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TZnVQ1YvP92Jc1uxTdFt-43" value="task-action 调度" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TZnVQ1YvP92Jc1uxTdFt-39">
+        <mxCell id="TZnVQ1YvP92Jc1uxTdFt-43" value="task 调度" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TZnVQ1YvP92Jc1uxTdFt-39">
           <mxGeometry x="109.5" y="765" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TZnVQ1YvP92Jc1uxTdFt-44" value="撤销task" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TZnVQ1YvP92Jc1uxTdFt-39">
           <mxGeometry x="110" y="315" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TZnVQ1YvP92Jc1uxTdFt-72" value="action 调度" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TZnVQ1YvP92Jc1uxTdFt-39">
+          <mxGeometry x="109.5" y="925" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="taskmaneger" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="360" y="20" width="550" height="1410" as="geometry" />
@@ -138,6 +141,9 @@
         <mxCell id="TZnVQ1YvP92Jc1uxTdFt-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="TZnVQ1YvP92Jc1uxTdFt-66" target="TZnVQ1YvP92Jc1uxTdFt-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="TZnVQ1YvP92Jc1uxTdFt-73" value="上一个action&lt;br&gt;finish" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="10" y="990" width="80" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-4" value="vehicleController" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="910" y="20" width="550" height="1410" as="geometry" />
         </mxCell>
@@ -145,7 +151,7 @@
           <mxGeometry x="185" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TZnVQ1YvP92Jc1uxTdFt-69" value="执行 ACTION" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="200" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="vehilceMessage" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1460" y="20" width="180" height="1410" as="geometry">
@@ -172,7 +178,14 @@
             <mxPoint x="296.3333333333335" y="879.6666666666665" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TZnVQ1YvP92Jc1uxTdFt-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="77e6c97f196da883-1" source="TZnVQ1YvP92Jc1uxTdFt-66" target="TZnVQ1YvP92Jc1uxTdFt-69">
+        <mxCell id="TZnVQ1YvP92Jc1uxTdFt-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-1" source="TZnVQ1YvP92Jc1uxTdFt-73" target="TZnVQ1YvP92Jc1uxTdFt-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZnVQ1YvP92Jc1uxTdFt-74" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="77e6c97f196da883-1" source="TZnVQ1YvP92Jc1uxTdFt-72" target="TZnVQ1YvP92Jc1uxTdFt-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
